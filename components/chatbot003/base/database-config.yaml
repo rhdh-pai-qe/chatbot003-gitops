@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot003-database-config
+data:
+  VECTORDB_HOST: "chatbot003-database"
+  VECTORDB_PORT: ""
